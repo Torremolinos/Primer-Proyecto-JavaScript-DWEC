@@ -1,17 +1,23 @@
-b{
-    background-color: white;
+b {
+  background-color: white;
 }
-.morado{
-    background-color: blueviolet;
+.morado {
+  background-color: blueviolet;
 }
-.sombras{
-    
+.sombras {
 }
-video{
-    width: 500px;
-    height: 500px;
+video {
+  width: 500px;
+  height: 500px;
 }
-button{
-    background-color: white;
-
+button {
+  background-color: white;
+}
+.shadow-box {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(128, 0, 128, 0.824);
+  /* Propiedad box-shadow para agregar la sombra de caja negra */
+  box-shadow: 500px 0px 20px 0px black;
+  margin: 0px auto;
 }
