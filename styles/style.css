@@ -13,11 +13,19 @@ video {
 button {
   background-color: white;
 }
-.shadow-box {
-  width: 200px;
-  height: 200px;
-  background-color: rgba(128, 0, 128, 0.824);
-  /* Propiedad box-shadow para agregar la sombra de caja negra */
-  box-shadow: 500px 0px 20px 0px black;
-  margin: 0px auto;
+.cajita {
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  background: #889ccf;
+  margin: 0 0 25px;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 35px 0px 35px 0px;
+  -moz-border-radius: 35px 0px 35px 0px;
+  -webkit-border-radius: 35px 0px 35px 0px;
+  border: 2px solid #5878ca;
+
 }
